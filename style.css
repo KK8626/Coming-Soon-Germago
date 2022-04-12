@@ -1,0 +1,147 @@
+:root {
+  --primary-color: #2e3033;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--primary-color);
+  background: linear-gradient(
+    180deg,
+    #ffffff 9.9%,
+    #f3f4f4 58.33%,
+    #eaf3ff 100%
+  );
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 75px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin: 15px auto;
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin-top: 40px;
+}
+
+.hero-image {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.introduction {
+  margin-top: 70px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.Trademark-Symbol-h1 {
+  font-size: 20px;
+  position: relative;
+  bottom: 40px;
+}
+
+.icons {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icons img {
+  width: 20px;
+}
+
+.contact-link {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #5aa5e7;
+}
+
+.contact-link:hover {
+  color: #4a87bd;
+  text-decoration: none !important;
+}
+
+.Copyright {
+  font-size: 12px;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 45px;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 18px;
+    padding: 3px;
+  }
+
+  h5 {
+    font-size: 16px;
+    padding: 3px;
+    text-align: left;
+  }
+
+  .wrapper {
+    margin-top: 0px;
+  }
+
+  .hero-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+    margin-bottom: 15px !important;
+  }
+
+  .introduction {
+    margin: 0 !important;
+  }
+
+  .Trademark-Symbol-h1 {
+    font-size: 15px;
+    position: relative;
+    bottom: 21px;
+  }
+
+  .content-introduction {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .icons img {
+    max-width: 50px;
+    margin: 5px !important;
+  }
+
+  .contact h5 {
+    margin-bottom: 15px !important;
+  }
+
+  .contact-link {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
